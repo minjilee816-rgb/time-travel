@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { PhoneFrame } from '../components/PhoneFrame'
 import { TabBar } from '../components/TabBar'
+import { useUser, firstName } from '../state/UserContext'
 import './screens.css'
 
 const ENTRIES = [
@@ -11,11 +12,13 @@ const ENTRIES = [
 ]
 
 export function Home() {
+  const { user } = useUser()
+  const name = firstName(user.name) || 'friend'
   return (
     <PhoneFrame background="linear-gradient(180deg, #EAF6F2 0%, #F7FBF9 35%, #FFFFFF 100%)">
       <div className="screen home-screen" style={{ paddingTop: 12 }}>
         <div className="home-greet">Good morning,</div>
-        <div className="home-name">Emily</div>
+        <div className="home-name">{name}</div>
         <div className="glasses-chip"><span className="dot" />Glasses connected</div>
         <div className="home-q">How do you want to remember this?</div>
         <div className="entry-list">

@@ -1,5 +1,6 @@
 import { HashRouter, Route, Routes } from 'react-router-dom'
 import { TripProvider } from './state/TripContext'
+import { UserProvider } from './state/UserContext'
 import { Welcome } from './screens/Welcome'
 import { CreateAccount } from './screens/CreateAccount'
 import { VerifyEmail } from './screens/VerifyEmail'
@@ -29,6 +30,7 @@ import { YourNote } from './screens/YourNote'
 function App() {
   return (
     <HashRouter>
+      <UserProvider>
       <TripProvider>
       <div className="app-shell">
         <Routes>
@@ -60,6 +62,7 @@ function App() {
         </Routes>
       </div>
       </TripProvider>
+      </UserProvider>
     </HashRouter>
   )
 }
