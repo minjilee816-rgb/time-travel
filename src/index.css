@@ -35,7 +35,7 @@ html, body, #root {
 body {
   font-family: var(--font);
   color: var(--text);
-  background: #C8CCD0;
+  background: #FFFFFF;
 }
 
 button {
@@ -61,5 +61,5 @@ a { color: inherit; text-decoration: none; }
   align-items: center;
   justify-content: center;
   padding: 24px;
-  background: linear-gradient(135deg, #DDE2E6 0%, #C8CCD0 100%);
+  background: #FFFFFF;
 }
