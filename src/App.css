@@ -1,0 +1,23 @@
+.placeholder {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.placeholder h1 {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin: 0 0 12px;
+  color: #0F9E8C;
+}
+
+.placeholder p {
+  color: #6B7280;
+  font-size: 16px;
+  max-width: 400px;
+}
