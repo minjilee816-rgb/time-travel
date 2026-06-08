@@ -11,13 +11,6 @@ export function PairGuide() {
         <p className="subtitle">Everything you need to know.</p>
 
         <div className="guide-list">
-          <div className="guide-card">
-            <div className="guide-icon">⏻</div>
-            <div>
-              <div className="guide-title">Turn on</div>
-              <div className="guide-desc">Hold the right temple button 3 sec.<br />The lens will glow teal when ready.</div>
-            </div>
-          </div>
           <div className="guide-card purple">
             <div className="guide-icon">🕶️</div>
             <div>

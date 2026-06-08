@@ -24,17 +24,6 @@ export function WearTravel() {
           <div className="wear-card-row">📍 {trip.place || 'Place'}</div>
         </div>
 
-        <div className="calibrate">
-          <div className="calibrate-ring">
-            <div className="inner">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                <path d="M5 12L10 17L20 7" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </div>
-          </div>
-          <div className="calibrate-label">Calibrating…</div>
-        </div>
-
         <div className="wear-actions">
           <Button to="/memory">Begin time travel</Button>
           <Link to="/home" className="btn btn-ghost">Cancel</Link>

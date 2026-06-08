@@ -55,7 +55,7 @@ export const VISITS: Visit[] = [
     duration: '8 min',
     mode: 'Observe',
     thumb: 'sunset',
-    feeling: '🥲',
+    feeling: '🥹',
     noteWrittenAt: 'May 2, 2024 at 8:42 PM',
     noteParagraphs: [
       'Watched him teach little me how to fish. He never knew I would remember this so vividly.',
@@ -123,4 +123,4 @@ export const THUMB_GRADIENTS: Record<string, string> = {
   sky: 'linear-gradient(135deg, #D2E5F2 0%, #B8CFE4 100%)',
 }
 
-export const FEELINGS = ['😢', '😌', '🙂', '💛', '🥲']
+export const FEELINGS = ['😢', '😌', '🙂', '💛', '🥹']

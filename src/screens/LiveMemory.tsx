@@ -18,7 +18,6 @@ export function LiveMemory() {
         <div className="memory-top">
           <div className="memory-top-left">
             <div className="live-chip"><span className="dot" />LIVE</div>
-            <div className="live-chip rec"><span className="dot" />REC</div>
           </div>
           <div className="mode-toggle">Interact mode</div>
         </div>

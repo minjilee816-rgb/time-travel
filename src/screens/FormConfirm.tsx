@@ -25,7 +25,7 @@ export function FormConfirm() {
       <Progress step={2} total={3} />
       <div className="screen">
         <h2 className="title-lg" style={{ marginTop: 12 }}>Review the details</h2>
-        <p className="subtitle">Everything look right?</p>
+        <p className="subtitle">Everything looks right?</p>
 
         <div className="summary">
           <Row icon="👤" value={trip.who} fallback="Who were you with?" />
