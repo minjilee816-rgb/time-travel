@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { PhoneFrame } from '../components/PhoneFrame'
 import './screens.css'
 
-const FEELINGS = ['😢', '😌', '🙂', '💛', '🥲']
+const FEELINGS = ['😢', '😌', '🙂', '💛', '🥹']
 
 export function Return() {
   const [picked, setPicked] = useState<number | null>(null)
