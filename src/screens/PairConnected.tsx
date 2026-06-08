@@ -33,7 +33,7 @@ export function PairConnected() {
         <div className="connected-chip">● Glasses connected ✓</div>
 
         <div className="screen-footer" style={{ width: '100%' }}>
-          <Button to="/pair-guide">Continue to app →</Button>
+          <Button to="/pair-guide">Continue →</Button>
           <div className="btn-foot-note">You can start your first trip now</div>
         </div>
       </div>
